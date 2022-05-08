@@ -1,18 +1,19 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import Script from "next/script";
 
 export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>TYC</title>
+				<title>TYC - Get filled with the spirit 24/7</title>
 				<meta
 					name="description"
 					content="The Youth Church CE Aba Zone"
 				/>
 				<link rel="icon" href="/favicon.ico" />
-				<script src="https://cdn.tailwindcss.com"></script>
+				<>
+					<Script src="https://cdn.tailwindcss.com"></Script>
+				</>
 			</Head>
 
 			<div className="bg-gray-50">
